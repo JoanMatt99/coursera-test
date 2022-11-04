@@ -1,0 +1,106 @@
+body {
+    font-size: 100%;
+    color: #ffff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #f6b319;
+}
+
+
+
+
+.columns{
+    padding-top: 1opx;
+    margin-left: 10px;
+}
+
+.navbar-brand .name{
+    display: inline;
+    font-size: 4vw;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #222;
+    margin: 0;
+}
+
+
+
+
+.navbar-brand span {
+    font-size: 10px;
+    font-weight: lighter;
+    color: #ffff90;
+}
+
+.hamburger{
+    margin-right: 10px;
+    float: right;
+}
+
+.nav-item{
+    line-height: 0.9;
+}
+
+
+
+.navbar-toggler{
+    width: auto;
+    float: right;
+    border: transparent;
+    background-color: #f6b319;
+}
+
+
+.nav-item {
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+
+.nav-list a:hover{
+    background: #61122f;
+    color: #f6b319;
+}
+
+.navbar-toggler:hover{
+    background-color: rgb(253, 245, 214);
+}
+
+/** MENU **/
+
+.menu-head{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.sections{
+    margin-bottom: 15px;
+}
+
+.sec-chicken, .sec-beef, .sec-sushi{
+    height: 1000px;
+    border: 2px solid;
+    color: #222;
+    background-color: #f6b319;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 575.98px) {
+    .sec-chicken, .sec-beef, .sec-sushi{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.section-head{
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
